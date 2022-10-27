@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  caption: MyString
+  location: MyString
+  path: MyString
+  aws_s3_path: MyString
+  cloudinary_path: MyString
+  taken_at: 2022-10-27 11:30:01
+  last_modified_at: 2022-10-27 11:30:01
+
+two:
+  caption: MyString
+  location: MyString
+  path: MyString
+  aws_s3_path: MyString
+  cloudinary_path: MyString
+  taken_at: 2022-10-27 11:30:01
+  last_modified_at: 2022-10-27 11:30:01
