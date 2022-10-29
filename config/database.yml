@@ -81,6 +81,7 @@ test:
 #
 production:
   <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
   database: shots_ahmadihsan_api_production
   username: shots_ahmadihsan_api
   password: <%= ENV["SHOTS_AHMADIHSAN_API_DATABASE_PASSWORD"] %>
